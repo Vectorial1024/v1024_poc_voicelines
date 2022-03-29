@@ -25,8 +25,6 @@ For this specific case (Betty's sector names), the sound files should all be mon
 
 ## Directory Guide
 
-WIP
-
 ```
 /content.xml
 /cropped_a.ogg       <- Cropped "A"
@@ -34,3 +32,22 @@ WIP
 /propagate_a.py      <- Python file to help copy the Gura "A" to the many known places in the repo
 /voice-l044          <- Root of English voices
 ```
+
+# Development Guide
+
+`propagate.py` requires Python, and will copy `cropped_a.ogg` to the many sector-name voice folders under `voice-l044`.
+
+# Further Development
+
+Interestingly, what this mod unexpectedly shows is that it is possible to add voicelines of other languages to the game, so that other than the few voiced languages (English, German, and French), you can add voice to e.g. Japanese.
+
+As a quick demonstration, you can follow these steps:
+
+1. The Japanese language code is 81
+2. Clone the `voice-1044` folder of this mod
+3. Rename the copy of that folder to `voice-l081`
+4. Add `-voicelanguage 81` to the launch options
+5. Launch the game
+6. You will notice that all NPC voice lines are muted except sector names, which would play the Gura "A" 
+
+However, as shown in step 6, you will need to provide all the sound file replacements in one go, so it would be practically impossible for a modding community to produce a compleet set of voicelines in any reasonable amount of time.
