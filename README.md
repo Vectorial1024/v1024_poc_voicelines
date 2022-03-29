@@ -31,5 +31,6 @@ WIP
 /content.xml
 /cropped_a.ogg       <- Cropped "A"
 /source_a.ogg        <- Original "A"
+/propagate_a.py      <- Python file to help copy the Gura "A" to the many known places in the repo
 /voice-l044          <- Root of English voices
 ```
