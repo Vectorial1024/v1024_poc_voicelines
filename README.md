@@ -17,6 +17,8 @@ As specified in this "precursor" mod for X Rebirth (https://forum.egosoft.com/vi
 
 It seems currently impossible to install this mod as a regular `extensions` mod and make it work: the Gawr Gura's "A" simply would not load.
 
+Also, while this mod does not include lipsyncs for the voice lines, it should still be stressed that a complete voiceline mod should include lipsyncs. Not that I am able to make lipsyncs...
+
 ## Sound Note
 
 For this specific case (Betty's sector names), the sound files should all be mono-channel.
